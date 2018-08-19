@@ -1,0 +1,16 @@
+language: python
+
+python:
+  - "3.6"
+
+install:
+  - pip install sphinx
+  - pip install awscli
+
+jobs:
+  include:
+    - stage: "build and deploy"
+      name: "build and deploy"
+      script:
+        - bash scripts/build.sh
+        - bash scripts/deploy.sh

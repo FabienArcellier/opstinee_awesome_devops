@@ -9,8 +9,11 @@ install:
 
 jobs:
   include:
-    - stage: "build and deploy"
-      name: "build and deploy"
+    - stage: "build"
+      name: "build"
       script:
         - bash scripts/build.sh
+    - stage: "deploy"
+      name: "deploy"
+      script:
         - bash scripts/deploy.sh

@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Awesome DevOps'
-copyright = u'2018, Opstinee'
-author = u'Opstinee'
+copyright = u'2018, Opstines'
+author = u'Opstines'
 
 # The short X.Y version
 version = u''
